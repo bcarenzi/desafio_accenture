@@ -29,3 +29,6 @@ def step_book_list_ok(context):
     assert "books" in data, f"Response does not contain 'books': {data}"
     context.available_books = data["books"]
     assert len(context.available_books) >= 2, "At least 2 books are required to rent 2 random"
+
+
+

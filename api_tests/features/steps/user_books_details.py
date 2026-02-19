@@ -49,3 +49,5 @@ def step_books_match_added(context):
     isbns_in_collection = [b.get("isbn") for b in books if b.get("isbn")]
     for isbn in context.added_isbns:
         assert isbn in isbns_in_collection, f"ISBN {isbn} should be in collection: {isbns_in_collection}"
+
+
