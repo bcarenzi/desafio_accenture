@@ -48,7 +48,7 @@ python3 -m venv .venv
 source .venv/bin/activate   # no Windows: .venv\Scripts\activate
 
 # Instalar dependências
-pip install -r api_tests/requirements.txt
+pip3 install -r api_tests/requirements.txt
 ```
 
 ### 2. Executar os testes
