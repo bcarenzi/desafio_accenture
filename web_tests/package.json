@@ -1,0 +1,15 @@
+{
+  "name": "web_tests",
+  "version": "1.0.0",
+  "description": "Testes E2E web com Cypress - DemoQA",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "@faker-js/faker": "^8.4.0",
+    "@4tw/cypress-drag-drop": "^2.2.4"
+  }
+}
